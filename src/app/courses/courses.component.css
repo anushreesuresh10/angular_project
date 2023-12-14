@@ -1,0 +1,391 @@
+body{margin-top:0px;
+    background: rgb(255,255,255);
+    background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(255,230,179,1) 100%);}
+.section-title {
+    position: relative;
+    
+}
+.section-title h2 {
+    color: #25272a;
+    position: relative;
+    margin-top: 20px;
+    font-size: 40px;
+}
+@media (min-width: 768px) {
+    .section-title h2 {
+        font-size: 28px;
+    }
+}
+@media (min-width: 992px) {
+    .section-title h2 {
+        font-size: 34px;
+    }
+}
+.section-title.title-ex1 h2 {
+    padding-bottom: 20px;
+}
+@media (min-width: 768px) {
+    .section-title.title-ex1 h2 {
+        padding-bottom: 30px;
+    }
+}
+@media (min-width: 992px) {
+    .section-title.title-ex1 h2 {
+        padding-bottom: 40px;
+    }
+}
+.section-title.title-ex1 h2:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 12px;
+    width: 110px;
+    height: 1px;
+    background-color: #d6dbe2;
+}
+@media (min-width: 768px) {
+    .section-title.title-ex1 h2:before {
+        bottom: 17px;
+    }
+}
+@media (min-width: 992px) {
+    .section-title.title-ex1 h2:before {
+        bottom: 25px;
+    }
+}
+.section-title.title-ex1 h2:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 12px;
+    width: 40px;
+    height: 1px;
+    background-color:  #f4b841;
+}
+@media (min-width: 768px) {
+    .section-title.title-ex1 h2:after {
+        bottom: 17px;
+    }
+}
+@media (min-width: 992px) {
+    .section-title.title-ex1 h2:after {
+        bottom: 25px;
+    }
+}
+.section-title.title-ex1.text-center h2:before {
+    left: 50%;
+    transform: translateX(-50%);
+}
+.section-title.title-ex1.text-center h2:after {
+    left: 50%;
+    transform: translateX(-50%);
+}
+.section-title.title-ex1.text-right h2:before {
+    left: auto;
+    right: 0;
+}
+.section-title.title-ex1.text-right h2:after {
+    left: auto;
+    right: 0;
+}
+.section-title.title-ex1 p {
+    font-family: "Montserrat", sans-serif;
+    color: #8b8e93;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+.price-card {
+    background: #f5f5f6;
+    padding: 40px 35px;
+    position: relative;
+    border-radius: 2px;
+    overflow: hidden;
+}
+.price-card:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: -35px;
+    width: 88px;
+    height: 88px;
+    background:  #f4b841;
+    opacity: 0.2;
+    border-radius: 8px;
+    transform: rotate(45deg);
+}
+.price-card:after {
+    position: absolute;
+    content: "";
+    top: 30px;
+    right: -35px;
+    width: 88px;
+    height: 88px;
+    background:  #f4b841;
+    opacity: 0.2;
+    border-radius: 8px;
+    transform: rotate(45deg);
+}
+.price-card h2 {
+    font-size: 26px;
+    font-weight: 600;
+}
+.price-card .btn {
+    font-size: 11px;
+    border-radius: 100px;
+    padding: 0 25px;
+    border: 0;
+    color: #fff;
+    float: right;
+}
+.price-card .btn.btn-primary {
+    border: 0 !important;
+}
+.price-card.featured {
+    background: #fff;
+    border: 1px solid #ebebeb;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+.price-card:hover .btn {
+    background:  #f4b841;
+    border-color:  #f4b841;
+}
+p.price span {
+    display: inline-block;
+    padding: 45px 15px 50px;
+    padding-right: 0;
+    font-size: 60px;
+    font-weight: 600;
+    color:  #f4b841;
+    position: relative;
+}
+/* p.price span:before {
+    position: absolute;
+    content: "$";
+    font-size: 16px;
+    top: 25px;
+    font-weight: 300;
+    left: 0;
+} */
+.pricing-offers {
+    padding: 0 0 10px;
+}
+.pricing-offers li {
+    padding: 0 0 16px;
+    line-height: 18px;
+}
+ul li {
+    list-style-type: none;
+}
+.btn.btn-mid {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+}
+.row{
+    margin-bottom: 20px;
+}
+
+
+
+.counter {
+    background-color:#f5f5f5;
+    padding: 20px 0;
+    border-radius: 5px;
+    color: #25272a;
+}
+
+.count-title {
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.count-text {
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.fa-2x {
+    margin: 0 auto;
+    float: none;
+    display: table;
+    color: #f4b841;
+}
+
+
+
+/*search box css start here*/
+.search-sec{
+    padding: 2rem;
+}
+.search-slt{
+    display: block;
+    width: 100%;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+.wrn-btn{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+@media (min-width: 992px){
+    .search-sec{
+        position: relative;
+        top: -114px;
+        background: rgba(26, 70, 104, 0.51);
+    }
+}
+
+@media (max-width: 992px){
+    .search-sec{
+        background: #1A4668;
+    }
+}
+
+   
+   /*
+   
+   */
+   .title {
+	font-size: 46px;
+	color: #3b2f13;
+	font-weight: 600;
+    padding-top: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.title span {
+	font-size: 46px;
+	color:#fff;
+	font-weight: 600;
+}
+p {
+	font-size: 15px;
+	margin: 0px;
+	padding: 0px;
+}
+   h3 {
+     color:#f4b841;
+   }
+   .text{
+       color:#a27a2a;
+       text-align: center;
+   }
+   
+   
+   .folded-corner:hover .text{
+       visibility: visible;
+       color: #000000;;
+   }
+   .Services-tab{
+       margin-top:50px;
+       
+   
+   }
+   
+   /*
+     nav link items
+   */
+   .folded-corner{
+     padding: 25px 25px;
+     position: relative;
+     font-size: 90%;
+     text-decoration: none;
+     color: #999; 
+     background: transparent;
+     transition: all ease .5s;
+     border: 1px solid#be8f31;
+     border-radius: 5px;
+     box-shadow: 0 20px 60px 20px rgba(0, 0, 0, 0.08);
+     
+   }
+   .container{
+    margin-top: -200px;
+   }
+   .header{
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);   
+     position: relative;
+    padding: 50px;
+    background-position-x:650px ;
+background-image: url(edge-yellow-wall-pencils-paper-rat-clips-clocks-lie-chaotically-beautifully.jpg);
+    height: 400px;
+    
+   }
+   .folded-corner:hover{
+       background-color:#ebaa28;
+   }
+   
+   /*
+     paper fold corner
+   */
+   
+   .folded-corner:before {
+     content: "";
+     position: absolute;
+     top: 0;
+     right: 0;
+     border-style: solid;
+     border-width: 0 0px 0px 0;
+     border-color: #ddd #000;
+     transition: all ease .2s;
+   }
+   
+   /*
+     on li hover make paper fold larger
+   */
+   .folded-corner:hover:before {
+       background-color: #D00003;
+     border-width: 0 50px 50px 0;
+     border-color: #eee #000;
+     
+   }
+   
+   .service_tab_1{
+       background-color: white;
+   }
+
+   .service_tab_1:hover .fa-icon-image{
+       color: #000;
+       transform: rotate(360deg) scale(1.1);
+   }
+   .service_tab_1:hover .item-title{
+    color: #000;
+   }
+   
+   .fa-icon-image{
+       color:#f4b841;
+       display: inline-block;
+       font-style: normal;
+       font-variant: normal;
+       font-weight: normal;
+       line-height: 1;
+       font-size-adjust: none;
+       font-stretch: normal;
+     
+       text-rendering: auto;
+       transition: all .65s linear 0s;
+       text-align: center;
+       transition: all 1s cubic-bezier(.99,.82,.11,1.41);
+   }
+   
+   
